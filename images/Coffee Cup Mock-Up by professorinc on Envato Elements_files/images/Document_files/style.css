@@ -1,0 +1,27 @@
+body {
+    background-image: url(images/dark\ coffee.jpg)
+}
+
+h1 {
+    font-family: lobster;
+    color: burlywood;
+    font-size: 3rem;
+}
+
+p {
+    font-family: 'Dosis',sans-serif;
+    font-size: 2rem;
+    color: whitesmoke
+}
+
+li {
+   font-size: 2rem;
+   color: whitesmoke;
+   text-decoration: burlywood;
+}
+
+select {
+    font-family: sans-serif;
+    font-size: medium;
+} 
+

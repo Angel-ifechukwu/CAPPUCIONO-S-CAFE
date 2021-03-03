@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Document_files/style.css">
+    <link href="./Document_files/css" rel="stylesheet" type="text/css" <="" a="">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://127.0.0.1:5500/Tickle.com" method="GET">
+   <h1>Website Survey Questionnaire</h1>
+   <p>Thank you for taking the time to answer these questions. The following questions are about how well known and successful is Tickle.com</p>
+   <br> 
+    <ol>
+        <li>Have you heard about Tickle.com?<br>
+        <input type="radio" name="yes/no" id="yes" value="yes">Yes<br>
+        <input type="radio" name="yes/no" id="no" value="no">No</li>
+
+    <br>
+
+        <li>How did you hear about Tickle.com?<br>
+            <select name="select" id="more">
+                <option diabled="" select="" value="">Please select </option>
+                <option value="Whatsapp">Whatsapp</option>
+                <option value="Facebook">Facebook</option>
+                <option value="Instagram">Instagram</option>
+                <option value="Twitter">Twitter</option>
+                <option value="LinkedIn">LinkedIn</option>
+                <option value="Friend">Friend</option>
+            </select></li>
+    
+            <br>
+
+                <li>Do you purchase items on Tickle.com?<br>
+                    <input type="radio" name="no/yes" id="yes" value="yes">Yes<br>
+                    <input type="radio" name="no/yes" id="no" value="no">No<br>
+                </li>
+
+                <br>
+
+                <li>How old are you?<br>
+                    <input type="radio" name="Age" id="under 18" value="under 18">Under 18<br>
+                    <input type="radio" name="Age" id="18-25" value="18-25">18-25<br>
+                    <input type="radio" name="Age" id="25-45" value="25-45">25-45<br>
+                    <input type="radio" nma="" e="Age" id="45 above" value="45 above">45 above</li>
+
+            </ol>
+
+
+
+        
+    
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</form></body></html>
